@@ -12,20 +12,21 @@ body{
 
 #slaid{
     position: absolute;
-    height: 94%;
+    height: 100%;
     width: 100%;
     background: #020202;
-    margin-top: 5%;
 }
 
 #hat{
     width: 100%;
-    height: 4.5%;
+    height: 6vh;
     background: #020202;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s;
     position: fixed;
     z-index: 10;
+    border-bottom: 2px solid;
+    color: #b2b2b2;
 }
 
 .hatacontainer{
@@ -78,13 +79,14 @@ body{
 #slaidcontainer{
     margin-right: auto;
     margin-left: auto;
+    margin-top: 11%;
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
 #newsimg{
-    height: 84%;
+    height: 80.5%;
 }
 
 #newstitletext{
@@ -107,5 +109,5 @@ body{
     width: 100%;
     z-index: 1;
     transition: 1.5s;
-    padding-top: 5.5%;
+    padding-top: 11%;
 }
