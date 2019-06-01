@@ -107,8 +107,53 @@ body{
     transition: 1.5s;
 }
 
+.middlecontainer{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postbox{
+    border: 3px solid #c1c1c1;
+    height: 18vmin;
+    margin-top: 12vmin;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 18vmin;
+    transition: .2s;
+    color: #8f5e30;
+    text-align: center;
+}
+.postbox:hover{
+    transition: .8s;
+    background: rgba(38,38,38,0.6);
+    color: #DC9933;
+}
+
+.posttext{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 6vmin;
+}
+
+.postimage{
+    float: right;
+    margin: 0.6%;
+    height: 90%;
+}
+
 @media all and (orientation: landscape) {
     #newsimgcontainer{
         height: 113vh;
+    }
+
+    .postbox{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

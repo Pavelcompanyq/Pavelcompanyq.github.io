@@ -18,7 +18,7 @@ body{
 }
 
 #slaid{
-	position: absolute;
+	position: relative;
 	height: 70%;
 	width: 100%;
 	background: #020202;
@@ -60,13 +60,12 @@ body{
 	height: 100%;
 	float: right;
 	margin-left: 32%;
-	position: absolute;
 }
 
 #newstitletext{
 	color: #f0ad4e;
 	font-family: 'Montserrat', sans-serif;
-	font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 110px);
+	font-size: 6vmax;
 	font-weight: 200;
 	margin-block-start: 25%;
 	margin-block-end: 0;
@@ -106,4 +105,42 @@ body{
 	background: #4D4D4D;
 	margin-right: auto;
 	margin-top: 35%;
+}
+
+.middlecontainer{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.postbox{
+	border: 1px solid #c1c1c1;
+	height: 12vmin;
+	margin-top: 8vmin;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 12vmin;
+	transition: .2s;
+	color: #8f5e30;
+}
+.postbox:hover{
+	transition: .8s;
+	background: rgba(38,38,38,0.6);
+	color: #DC9933;
+}
+
+.posttext{
+	margin-block-start: 0;
+	margin-block-end: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 4vmin;
+	margin-left: 1%;
+}
+
+.postimage{
+	float: right;
+	margin: 0.6%;
+	height: 90%;
 }
